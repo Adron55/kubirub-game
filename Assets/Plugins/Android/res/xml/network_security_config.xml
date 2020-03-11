@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+  <base-config cleartextTrafficPermitted="true">
+    <!-- add the list of domains and subdomains you want to address -->
+    <base includeSubdomains="true">www.kubirub.com</base>
+  </base-config>
+</network-security-config>
